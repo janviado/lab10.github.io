@@ -1,0 +1,84 @@
+html{
+}
+
+#navigation {
+  width: 80rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+#navigation .logo{
+  display: block;
+  line-height: 48px;
+  color: #0D3F80;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#navigation .logo img{
+  width: 34px;
+  height: 34px;
+  margin: 3px 2px 80px 16px;
+  vertical-align: middle;
+}
+
+.menuButton{
+  border-left: 1px solid #e60505;
+  color: #0D3F80;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 1.1rem;
+  margin-left: 1.7rem;
+  align-self: center;
+  cursor: pointer;
+}
+
+.menuButton .chevronIcon{
+  background: #fff;
+  border-radius: 10px;
+  fill: #0D3F80;
+  margin-left: 2px;
+  padding: 3px 2px 1px;
+}
+
+.menuButton:hover {
+  color: #AF375C
+}
+
+.menuButton:hover .chevronIcon{
+  background: #AF375C;
+  fill: #fff;
+}
+
+.spacingDiv{
+  flex-grow: 1;
+}
+
+.sideMenu{
+  align-self: center;
+}
+
+.sideMenu a{
+  display: block;
+  cursor: pointer;
+}
+
+#adspace{
+  background-color: #DE8E7D;
+  height: 100px;
+  padding: 20px;
+  background-age: url(../img/adspace.gif);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
+.advertisement{
+  display: block;
+  margin: 0px auto;
+  width: 740px;
+  height: 90px;
+  background-image: url(../img/advert.jpg);
+  background-size: cover;
+    border: 2px solid #871D3D;
+}
